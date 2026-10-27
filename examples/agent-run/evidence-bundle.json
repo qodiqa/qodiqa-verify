@@ -1,0 +1,525 @@
+{
+  "generatedAt": "2026-10-23T18:00:08.850Z",
+  "tenantId": "qodiqa-rc",
+  "actions": [
+    {
+      "agent": "A",
+      "tenantId": "qodiqa-rc",
+      "agentId": "1d2f46ea-15a7-4e45-b8d1-f77f7ef18d1b",
+      "sessionId": "d34ef6d7-cb45-457e-a404-1442486a6d31",
+      "tool": {
+        "server": "files-mvl9z5hs",
+        "name": "read_file",
+        "schemaHash": "cfb32d77f0a218771eeb386c5ab6c6c7b5ae85bd4187fc6701a7620f596c8fb6",
+        "version": 1
+      },
+      "args": {
+        "path": "/data/report.txt"
+      },
+      "artifact": {
+        "expiry": 1792778730637,
+        "payload": {
+          "requestId": "80dae040-1db9-4492-8516-d1c4462918f7",
+          "tenantId": "qodiqa-rc",
+          "qodiqa": {
+            "v": 2,
+            "kind": "action",
+            "bind": {
+              "headers": []
+            },
+            "agentId": "1d2f46ea-15a7-4e45-b8d1-f77f7ef18d1b",
+            "sessionId": "d34ef6d7-cb45-457e-a404-1442486a6d31",
+            "seq": 1,
+            "actionHash": "93c5634681281b1f9592e31b286ab381e62223600dd116d61579e308df37d8ee"
+          }
+        },
+        "publicKeyId": "qodiqa-rc:key_v1",
+        "signature": "l8UXSG5zhNY4/l4dj0neRhuOSKmdgDm4cy3LHZNojTrQzzcZ8QbvyL9Iol4WJh0rkkYxde/z15RK+bJly02JDg==",
+        "timestamp": 1792778700637
+      },
+      "action": {
+        "actionHash": "93c5634681281b1f9592e31b286ab381e62223600dd116d61579e308df37d8ee",
+        "seq": 1,
+        "prevActionHash": null,
+        "tool": {
+          "server": "files-mvl9z5hs",
+          "name": "read_file",
+          "schemaHash": "cfb32d77f0a218771eeb386c5ab6c6c7b5ae85bd4187fc6701a7620f596c8fb6",
+          "version": 1
+        },
+        "parentRequestHash": null
+      }
+    },
+    {
+      "agent": "A",
+      "tenantId": "qodiqa-rc",
+      "agentId": "1d2f46ea-15a7-4e45-b8d1-f77f7ef18d1b",
+      "sessionId": "d34ef6d7-cb45-457e-a404-1442486a6d31",
+      "tool": {
+        "server": "files-mvl9z5hs",
+        "name": "read_file",
+        "schemaHash": "cfb32d77f0a218771eeb386c5ab6c6c7b5ae85bd4187fc6701a7620f596c8fb6",
+        "version": 1
+      },
+      "args": {
+        "path": "/data/two.txt"
+      },
+      "artifact": {
+        "expiry": 1792778730797,
+        "payload": {
+          "requestId": "4ad29db7-9b82-4c76-885d-8556203e0406",
+          "tenantId": "qodiqa-rc",
+          "qodiqa": {
+            "v": 2,
+            "kind": "action",
+            "bind": {
+              "headers": []
+            },
+            "agentId": "1d2f46ea-15a7-4e45-b8d1-f77f7ef18d1b",
+            "sessionId": "d34ef6d7-cb45-457e-a404-1442486a6d31",
+            "seq": 2,
+            "actionHash": "d3bc521e19a90921d57f175d071930e527bc1a4046ad73ccb65fb5033b4c7276"
+          }
+        },
+        "publicKeyId": "qodiqa-rc:key_v1",
+        "signature": "7xUdYeowjBaURPxrXSZIjJj7sK5tZ3ThiN9yDw3xQ2dkHqGdimTkAO9YwmUl2ARKaiH5YsmQ4KWlenjh1LCiBA==",
+        "timestamp": 1792778700797
+      },
+      "action": {
+        "actionHash": "d3bc521e19a90921d57f175d071930e527bc1a4046ad73ccb65fb5033b4c7276",
+        "seq": 2,
+        "prevActionHash": "93c5634681281b1f9592e31b286ab381e62223600dd116d61579e308df37d8ee",
+        "tool": {
+          "server": "files-mvl9z5hs",
+          "name": "read_file",
+          "schemaHash": "cfb32d77f0a218771eeb386c5ab6c6c7b5ae85bd4187fc6701a7620f596c8fb6",
+          "version": 1
+        },
+        "parentRequestHash": null
+      }
+    },
+    {
+      "agent": "A",
+      "tenantId": "qodiqa-rc",
+      "agentId": "1d2f46ea-15a7-4e45-b8d1-f77f7ef18d1b",
+      "sessionId": "d34ef6d7-cb45-457e-a404-1442486a6d31",
+      "tool": {
+        "server": "files-mvl9z5hs",
+        "name": "fetch_note",
+        "schemaHash": "e5530f5157125ced6ab4d4a1a27e757c46507d493fa98498fc5749e33f148496",
+        "version": 1
+      },
+      "args": {
+        "id": "poisoned"
+      },
+      "artifact": {
+        "expiry": 1792778730915,
+        "payload": {
+          "requestId": "5ac4657b-727b-4fd1-92e0-936b6493ea4c",
+          "tenantId": "qodiqa-rc",
+          "qodiqa": {
+            "v": 2,
+            "kind": "action",
+            "bind": {
+              "headers": []
+            },
+            "agentId": "1d2f46ea-15a7-4e45-b8d1-f77f7ef18d1b",
+            "sessionId": "d34ef6d7-cb45-457e-a404-1442486a6d31",
+            "seq": 3,
+            "actionHash": "6204de748ed750d2408808d42c61ea96287a875a0978cf498a1dff7ca9778b08"
+          }
+        },
+        "publicKeyId": "qodiqa-rc:key_v1",
+        "signature": "98APcvUBUnV0VpACsq+Nr7Sk9IaQtpfJNbAAmvz/STif3D5/2mcuogVKFhnGkcVHK/WFoLfJ3WnSr7AwRMm3Bg==",
+        "timestamp": 1792778700915
+      },
+      "action": {
+        "actionHash": "6204de748ed750d2408808d42c61ea96287a875a0978cf498a1dff7ca9778b08",
+        "seq": 3,
+        "prevActionHash": "d3bc521e19a90921d57f175d071930e527bc1a4046ad73ccb65fb5033b4c7276",
+        "tool": {
+          "server": "files-mvl9z5hs",
+          "name": "fetch_note",
+          "schemaHash": "e5530f5157125ced6ab4d4a1a27e757c46507d493fa98498fc5749e33f148496",
+          "version": 1
+        },
+        "parentRequestHash": null
+      }
+    },
+    {
+      "agent": "A",
+      "tenantId": "qodiqa-rc",
+      "agentId": "1d2f46ea-15a7-4e45-b8d1-f77f7ef18d1b",
+      "sessionId": "d34ef6d7-cb45-457e-a404-1442486a6d31",
+      "tool": {
+        "server": "files-mvl9z5hs",
+        "name": "fetch_note",
+        "schemaHash": "e5530f5157125ced6ab4d4a1a27e757c46507d493fa98498fc5749e33f148496",
+        "version": 1
+      },
+      "args": {
+        "id": "quiet"
+      },
+      "artifact": {
+        "expiry": 1792778731021,
+        "payload": {
+          "requestId": "59effbba-f87c-4825-a79a-f68d29abef94",
+          "tenantId": "qodiqa-rc",
+          "qodiqa": {
+            "v": 2,
+            "kind": "action",
+            "bind": {
+              "headers": []
+            },
+            "agentId": "1d2f46ea-15a7-4e45-b8d1-f77f7ef18d1b",
+            "sessionId": "d34ef6d7-cb45-457e-a404-1442486a6d31",
+            "seq": 4,
+            "actionHash": "1c525faadb6fe4ec2c4ae8a4f0447507d79633f8fe9cc2b9926a4be36c98f156"
+          }
+        },
+        "publicKeyId": "qodiqa-rc:key_v1",
+        "signature": "MG0J6zdErgHeunvnOPNJM8gECZNozQi+DGgGMf7HiUElYJrk/W6vw/hiGYI0d+J3322X2Akebvk92aQDM/2sBg==",
+        "timestamp": 1792778701021
+      },
+      "action": {
+        "actionHash": "1c525faadb6fe4ec2c4ae8a4f0447507d79633f8fe9cc2b9926a4be36c98f156",
+        "seq": 4,
+        "prevActionHash": "6204de748ed750d2408808d42c61ea96287a875a0978cf498a1dff7ca9778b08",
+        "tool": {
+          "server": "files-mvl9z5hs",
+          "name": "fetch_note",
+          "schemaHash": "e5530f5157125ced6ab4d4a1a27e757c46507d493fa98498fc5749e33f148496",
+          "version": 1
+        },
+        "parentRequestHash": null
+      }
+    },
+    {
+      "agent": "A",
+      "tenantId": "qodiqa-rc",
+      "agentId": "1d2f46ea-15a7-4e45-b8d1-f77f7ef18d1b",
+      "sessionId": "d34ef6d7-cb45-457e-a404-1442486a6d31",
+      "tool": {
+        "server": "files-mvl9z5hs",
+        "name": "delete_file",
+        "schemaHash": "cfb32d77f0a218771eeb386c5ab6c6c7b5ae85bd4187fc6701a7620f596c8fb6",
+        "version": 1
+      },
+      "args": {
+        "path": "/data/old.txt"
+      },
+      "artifact": {
+        "expiry": 1792778760608,
+        "payload": {
+          "requestId": "d91700c2-81e8-4339-bf20-b292c653ecd5",
+          "tenantId": "qodiqa-rc",
+          "qodiqa": {
+            "v": 2,
+            "kind": "action",
+            "bind": {
+              "headers": []
+            },
+            "agentId": "1d2f46ea-15a7-4e45-b8d1-f77f7ef18d1b",
+            "sessionId": "d34ef6d7-cb45-457e-a404-1442486a6d31",
+            "seq": 5,
+            "actionHash": "60f597ee04c3c960d739c393f2450595c0614121d29ad03633190f74b8ffa505",
+            "approvalRef": "eb6fd979-8c0c-4688-84a6-1c8e4241c419"
+          }
+        },
+        "publicKeyId": "qodiqa-rc:key_v1",
+        "signature": "M/+/o1CSZi9meFK+54N4yUJ6dAGHSvOJM0BtPzR85q32Bm7JKOkqR7lQHOI4r74iTD1C3bwI77XzmuvgJWsOBQ==",
+        "timestamp": 1792778730608
+      },
+      "action": {
+        "actionHash": "60f597ee04c3c960d739c393f2450595c0614121d29ad03633190f74b8ffa505",
+        "seq": 5,
+        "prevActionHash": "1c525faadb6fe4ec2c4ae8a4f0447507d79633f8fe9cc2b9926a4be36c98f156",
+        "tool": {
+          "server": "files-mvl9z5hs",
+          "name": "delete_file",
+          "schemaHash": "cfb32d77f0a218771eeb386c5ab6c6c7b5ae85bd4187fc6701a7620f596c8fb6",
+          "version": 1
+        },
+        "parentRequestHash": null
+      }
+    },
+    {
+      "agent": "B",
+      "delegationId": "bc842617-cf6d-4bb8-bf30-91a0e942614c",
+      "tenantId": "qodiqa-rc",
+      "agentId": "ea8e6997-bbc9-4073-a2a7-095e26683a8d",
+      "sessionId": "4f39eba5-6d26-43de-98d0-af5bc87430f6",
+      "tool": {
+        "server": "files-mvl9z5hs",
+        "name": "read_file",
+        "schemaHash": "cfb32d77f0a218771eeb386c5ab6c6c7b5ae85bd4187fc6701a7620f596c8fb6",
+        "version": 1
+      },
+      "args": {
+        "path": "/data/b.txt"
+      },
+      "artifact": {
+        "expiry": 1792778820620,
+        "payload": {
+          "requestId": "dc5fd876-63cb-466a-a193-ae4f930e2cf4",
+          "tenantId": "qodiqa-rc",
+          "qodiqa": {
+            "v": 2,
+            "kind": "action",
+            "bind": {
+              "headers": []
+            },
+            "agentId": "ea8e6997-bbc9-4073-a2a7-095e26683a8d",
+            "sessionId": "4f39eba5-6d26-43de-98d0-af5bc87430f6",
+            "seq": 1,
+            "actionHash": "408d2f6de147f88cc4ab1f38d30b905b0003c737dd53c19f5764001222fc3032"
+          }
+        },
+        "publicKeyId": "qodiqa-rc:key_v1",
+        "signature": "QHMoV70aQWvoI4TB/aEsUhBXT2ecLkjCB6UNg/fa6ZH0aXeGzIkYXf/4HsXdPYBTvDe1iO2xJL9ZTkrVPqmIBA==",
+        "timestamp": 1792778790620
+      },
+      "action": {
+        "actionHash": "408d2f6de147f88cc4ab1f38d30b905b0003c737dd53c19f5764001222fc3032",
+        "seq": 1,
+        "prevActionHash": null,
+        "tool": {
+          "server": "files-mvl9z5hs",
+          "name": "read_file",
+          "schemaHash": "cfb32d77f0a218771eeb386c5ab6c6c7b5ae85bd4187fc6701a7620f596c8fb6",
+          "version": 1
+        },
+        "parentRequestHash": null
+      }
+    }
+  ],
+  "approvals": [
+    {
+      "approvalId": "eb6fd979-8c0c-4688-84a6-1c8e4241c419",
+      "tenantId": "qodiqa-rc",
+      "statement": {
+        "expiry": 1792779030579,
+        "payload": {
+          "v": 1,
+          "mfa": "step-up",
+          "seq": 5,
+          "kind": "approval",
+          "agentId": "1d2f46ea-15a7-4e45-b8d1-f77f7ef18d1b",
+          "decision": "APPROVED",
+          "tenantId": "qodiqa-rc",
+          "expiresAt": 1792779030579,
+          "notBefore": 1792778730579,
+          "sessionId": "d34ef6d7-cb45-457e-a404-1442486a6d31",
+          "actionHash": "60f597ee04c3c960d739c393f2450595c0614121d29ad03633190f74b8ffa505",
+          "approvalId": "eb6fd979-8c0c-4688-84a6-1c8e4241c419",
+          "approverId": "bootstrap-admin",
+          "requesterId": "identity:8cfb39bc-4f77-4a3c-bd3b-8b9d48a59693",
+          "policyRuleId": "tool:requiresApproval"
+        },
+        "signature": "q1G2mvVLrjomRpg0wr6Xwa/hOFxsTU159nPVWLtaAGcVKsnE8G20YL+/CJupntj6XP1H0pmExTlibMO63FaMBw==",
+        "timestamp": 1792778730579,
+        "publicKeyId": "qodiqa-rc:key_v1"
+      },
+      "requesterId": "identity:8cfb39bc-4f77-4a3c-bd3b-8b9d48a59693",
+      "actionHash": "60f597ee04c3c960d739c393f2450595c0614121d29ad03633190f74b8ffa505"
+    }
+  ],
+  "delegations": [
+    {
+      "delegationId": "bc842617-cf6d-4bb8-bf30-91a0e942614c",
+      "chain": [
+        {
+          "expiry": 1792779390562,
+          "payload": {
+            "v": 1,
+            "kind": "delegation",
+            "depth": 1,
+            "tools": [
+              {
+                "name": "read_file",
+                "server": "files-mvl9z5hs"
+              }
+            ],
+            "classes": [
+              "file"
+            ],
+            "maxDepth": 3,
+            "parentId": null,
+            "tenantId": "qodiqa-rc",
+            "maxActions": 5,
+            "rootAgentId": "1d2f46ea-15a7-4e45-b8d1-f77f7ef18d1b",
+            "delegationId": "bc842617-cf6d-4bb8-bf30-91a0e942614c",
+            "parentDigest": null,
+            "issuerAgentId": "1d2f46ea-15a7-4e45-b8d1-f77f7ef18d1b",
+            "subjectAgentId": "ea8e6997-bbc9-4073-a2a7-095e26683a8d"
+          },
+          "signature": "Cbk95R51MB6Q2Z0MVoxwEx+UgbfFQr3kQ5UgrRKN2Etdcsmozuujkckq2agadOO0d6x0rc4cIFXodlJIxqj2BA==",
+          "timestamp": 1792778790562,
+          "publicKeyId": "qodiqa-rc:key_v1"
+        }
+      ],
+      "issuerAgentId": "1d2f46ea-15a7-4e45-b8d1-f77f7ef18d1b",
+      "subjectAgentId": "ea8e6997-bbc9-4073-a2a7-095e26683a8d"
+    }
+  ],
+  "refusals": [
+    {
+      "name": "4.1 read_file /etc/shadow",
+      "reason": "ACTION_POLICY_DENIED",
+      "status": 403
+    },
+    {
+      "name": "4.2 replay of the artifact of 3.1",
+      "reason": "ACTION_REPLAY",
+      "status": 409
+    },
+    {
+      "name": "4.3 artifact for /data/two.txt used with other arguments",
+      "reason": "ACTION_MISMATCH",
+      "status": 409
+    },
+    {
+      "name": "6.2 another action while the approval is open",
+      "reason": "SESSION_AWAITING_APPROVAL",
+      "status": 409
+    },
+    {
+      "name": "6.7 the approval is one-use: authorising the same action again",
+      "reason": "APPROVAL_ALREADY_USED",
+      "status": 409
+    },
+    {
+      "name": "7.4 B uses a tool of another class outside the delegation",
+      "reason": "ACTION_CLASS_NOT_ALLOWED",
+      "status": 403
+    },
+    {
+      "name": "7.4b B uses a tool of the SAME class that the delegation does not list",
+      "reason": "ACTION_NOT_IN_DELEGATION",
+      "status": 403
+    },
+    {
+      "name": "7.6 B acts after the revocation",
+      "reason": "DELEGATION_REVOKED",
+      "status": 403
+    },
+    {
+      "name": "8.1 A acts after its session was killed",
+      "reason": "AGENT_SESSION_ENDED",
+      "status": 403
+    }
+  ],
+  "keys": {
+    "status": "success",
+    "timestamp": "2026-10-23T18:07:00.609Z",
+    "requestId": "07cfd9da-c9dc-4291-a2f4-db9314b9b448",
+    "data": {
+      "keys": [
+        {
+          "keyId": "qodiqa-rc:key_v1",
+          "publicKey": "MCowBQYDK2VwAyEAgXAdMRwo9c1R82M+qGiMZY0ZMmiqE6oDUnPkikL29vE=",
+          "algorithm": "ed25519",
+          "status": "active",
+          "activatedAt": "2026-10-23T17:01:10.932Z",
+          "retiredAt": null
+        },
+        {
+          "keyId": "consent-signer:key_v1",
+          "publicKey": "MCowBQYDK2VwAyEA5yG5kO/xo60oqJLVnhsUbUBe6aZiILvIBPprLpBhG78=",
+          "algorithm": "ed25519",
+          "status": "active",
+          "activatedAt": "2026-10-23T17:01:13.028Z",
+          "retiredAt": null
+        },
+        {
+          "keyId": "f13-mvl814a3:key_v1",
+          "publicKey": "MCowBQYDK2VwAyEAPoPyLzJVEcNa+Ww/iV/c0oDaOkWsr8/ClKc4lvj2OXs=",
+          "algorithm": "ed25519",
+          "status": "active",
+          "activatedAt": "2026-10-23T17:06:00.588Z",
+          "retiredAt": null
+        },
+        {
+          "keyId": "f13-mvl854gk:key_v1",
+          "publicKey": "MCowBQYDK2VwAyEAobdFUXpR85coat3vi70dnvs0zwiXh7idv2CDZOG++W4=",
+          "algorithm": "ed25519",
+          "status": "active",
+          "activatedAt": "2026-10-23T17:09:30.520Z",
+          "retiredAt": null
+        },
+        {
+          "keyId": "f13-mvl89hlg:key_v1",
+          "publicKey": "MCowBQYDK2VwAyEARo+1PSC4rMR1mY+AoOTp7E9FpMQ1cqqLtsWDfPwnjLs=",
+          "algorithm": "ed25519",
+          "status": "active",
+          "activatedAt": "2026-10-23T17:13:00.606Z",
+          "retiredAt": null
+        },
+        {
+          "keyId": "f13-mvl8ej8q:key_v1",
+          "publicKey": "MCowBQYDK2VwAyEAAs1jC4FO3eb7m6xfZeJT6V+moeS+StzU227KMrRe/Pg=",
+          "algorithm": "ed25519",
+          "status": "active",
+          "activatedAt": "2026-10-23T17:16:30.526Z",
+          "retiredAt": null
+        },
+        {
+          "keyId": "f13-mvl8j2fw:key_v1",
+          "publicKey": "MCowBQYDK2VwAyEAQ4/ZwOjdGWqnJsegJ2iXYX9O7eMO877oaPXlx+jlnmo=",
+          "algorithm": "ed25519",
+          "status": "active",
+          "activatedAt": "2026-10-23T17:20:30.524Z",
+          "retiredAt": null
+        },
+        {
+          "keyId": "f13-mvl8u9kn:key_v1",
+          "publicKey": "MCowBQYDK2VwAyEASLirFd824yKunukPP71DcDKqS6uGLSJfTtLwY9VMQcE=",
+          "algorithm": "ed25519",
+          "status": "active",
+          "activatedAt": "2026-10-23T17:29:00.534Z",
+          "retiredAt": null
+        },
+        {
+          "keyId": "f13-mvl9007e:key_v1",
+          "publicKey": "MCowBQYDK2VwAyEAIbekYVrhE0CYFWINNVWDA8I7H9rcwhqQO7zCyoL/6l4=",
+          "algorithm": "ed25519",
+          "status": "active",
+          "activatedAt": "2026-10-23T17:33:30.546Z",
+          "retiredAt": null
+        },
+        {
+          "keyId": "f13-mvl9616g:key_v1",
+          "publicKey": "MCowBQYDK2VwAyEAPe+jT8EMbex+f/q85ZtA4E8tR9fuxUiNg6FbHn7EXpI=",
+          "algorithm": "ed25519",
+          "status": "active",
+          "activatedAt": "2026-10-23T17:38:00.560Z",
+          "retiredAt": null
+        },
+        {
+          "keyId": "f13-mvl9dv65:key_v1",
+          "publicKey": "MCowBQYDK2VwAyEAmX3vdWKx10F0RCvaNpCXJagVcL7Lw11f3aCIE0bPyz0=",
+          "algorithm": "ed25519",
+          "status": "active",
+          "activatedAt": "2026-10-23T17:44:00.558Z",
+          "retiredAt": null
+        },
+        {
+          "keyId": "f13-mvl9klck:key_v1",
+          "publicKey": "MCowBQYDK2VwAyEAEy4R/ozZA50Yqt8zmgiRSVE/VDr5VtAGIVKkUfau+Vg=",
+          "algorithm": "ed25519",
+          "status": "active",
+          "activatedAt": "2026-10-23T17:49:00.537Z",
+          "retiredAt": null
+        },
+        {
+          "keyId": "f13-mvl9tc94:key_v1",
+          "publicKey": "MCowBQYDK2VwAyEA0l26KY2OaGOOp7qUtKDHpzt5MiIDndup8iL/1hgS4TY=",
+          "algorithm": "ed25519",
+          "status": "active",
+          "activatedAt": "2026-10-23T17:56:00.662Z",
+          "retiredAt": null
+        }
+      ]
+    }
+  }
+}

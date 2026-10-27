@@ -1,0 +1,13 @@
+{
+ "keys": [
+  {
+   "keyId": "tr-qodiqa-rc:key_v1",
+   "algorithm": "ed25519",
+   "publicKey": "MCowBQYDK2VwAyEAaN+W8DqEwYevikjpznEDQhx8MfIiTVZOp5mRm2GKQds=",
+   "status": "active",
+   "activatedAt": "2026-10-23T17:01:15.533Z",
+   "retiredAt": null
+  }
+ ],
+ "requestId": "9e7c893b-3b34-41c4-8ae3-fb59b4c8281b"
+}

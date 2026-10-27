@@ -1,0 +1,117 @@
+{
+ "keys": [
+  {
+   "keyId": "qodiqa-rc:key_v1",
+   "algorithm": "ed25519",
+   "publicKey": "MCowBQYDK2VwAyEAgXAdMRwo9c1R82M+qGiMZY0ZMmiqE6oDUnPkikL29vE=",
+   "status": "active",
+   "activatedAt": "2026-10-23T17:01:10.932Z",
+   "retiredAt": null
+  },
+  {
+   "keyId": "consent-signer:key_v1",
+   "algorithm": "ed25519",
+   "publicKey": "MCowBQYDK2VwAyEA5yG5kO/xo60oqJLVnhsUbUBe6aZiILvIBPprLpBhG78=",
+   "status": "active",
+   "activatedAt": "2026-10-23T17:01:13.028Z",
+   "retiredAt": null
+  },
+  {
+   "keyId": "f13-mvl814a3:key_v1",
+   "algorithm": "ed25519",
+   "publicKey": "MCowBQYDK2VwAyEAPoPyLzJVEcNa+Ww/iV/c0oDaOkWsr8/ClKc4lvj2OXs=",
+   "status": "active",
+   "activatedAt": "2026-10-23T17:06:00.588Z",
+   "retiredAt": null
+  },
+  {
+   "keyId": "f13-mvl854gk:key_v1",
+   "algorithm": "ed25519",
+   "publicKey": "MCowBQYDK2VwAyEAobdFUXpR85coat3vi70dnvs0zwiXh7idv2CDZOG++W4=",
+   "status": "active",
+   "activatedAt": "2026-10-23T17:09:30.520Z",
+   "retiredAt": null
+  },
+  {
+   "keyId": "f13-mvl89hlg:key_v1",
+   "algorithm": "ed25519",
+   "publicKey": "MCowBQYDK2VwAyEARo+1PSC4rMR1mY+AoOTp7E9FpMQ1cqqLtsWDfPwnjLs=",
+   "status": "active",
+   "activatedAt": "2026-10-23T17:13:00.606Z",
+   "retiredAt": null
+  },
+  {
+   "keyId": "f13-mvl8ej8q:key_v1",
+   "algorithm": "ed25519",
+   "publicKey": "MCowBQYDK2VwAyEAAs1jC4FO3eb7m6xfZeJT6V+moeS+StzU227KMrRe/Pg=",
+   "status": "active",
+   "activatedAt": "2026-10-23T17:16:30.526Z",
+   "retiredAt": null
+  },
+  {
+   "keyId": "f13-mvl8j2fw:key_v1",
+   "algorithm": "ed25519",
+   "publicKey": "MCowBQYDK2VwAyEAQ4/ZwOjdGWqnJsegJ2iXYX9O7eMO877oaPXlx+jlnmo=",
+   "status": "active",
+   "activatedAt": "2026-10-23T17:20:30.524Z",
+   "retiredAt": null
+  },
+  {
+   "keyId": "f13-mvl8u9kn:key_v1",
+   "algorithm": "ed25519",
+   "publicKey": "MCowBQYDK2VwAyEASLirFd824yKunukPP71DcDKqS6uGLSJfTtLwY9VMQcE=",
+   "status": "active",
+   "activatedAt": "2026-10-23T17:29:00.534Z",
+   "retiredAt": null
+  },
+  {
+   "keyId": "f13-mvl9007e:key_v1",
+   "algorithm": "ed25519",
+   "publicKey": "MCowBQYDK2VwAyEAIbekYVrhE0CYFWINNVWDA8I7H9rcwhqQO7zCyoL/6l4=",
+   "status": "active",
+   "activatedAt": "2026-10-23T17:33:30.546Z",
+   "retiredAt": null
+  },
+  {
+   "keyId": "f13-mvl9616g:key_v1",
+   "algorithm": "ed25519",
+   "publicKey": "MCowBQYDK2VwAyEAPe+jT8EMbex+f/q85ZtA4E8tR9fuxUiNg6FbHn7EXpI=",
+   "status": "active",
+   "activatedAt": "2026-10-23T17:38:00.560Z",
+   "retiredAt": null
+  },
+  {
+   "keyId": "f13-mvl9dv65:key_v1",
+   "algorithm": "ed25519",
+   "publicKey": "MCowBQYDK2VwAyEAmX3vdWKx10F0RCvaNpCXJagVcL7Lw11f3aCIE0bPyz0=",
+   "status": "active",
+   "activatedAt": "2026-10-23T17:44:00.558Z",
+   "retiredAt": null
+  },
+  {
+   "keyId": "f13-mvl9klck:key_v1",
+   "algorithm": "ed25519",
+   "publicKey": "MCowBQYDK2VwAyEAEy4R/ozZA50Yqt8zmgiRSVE/VDr5VtAGIVKkUfau+Vg=",
+   "status": "active",
+   "activatedAt": "2026-10-23T17:49:00.537Z",
+   "retiredAt": null
+  },
+  {
+   "keyId": "f13-mvl9tc94:key_v1",
+   "algorithm": "ed25519",
+   "publicKey": "MCowBQYDK2VwAyEA0l26KY2OaGOOp7qUtKDHpzt5MiIDndup8iL/1hgS4TY=",
+   "status": "active",
+   "activatedAt": "2026-10-23T17:56:00.662Z",
+   "retiredAt": null
+  },
+  {
+   "keyId": "f13-mvlaeyo4:key_v1",
+   "algorithm": "ed25519",
+   "publicKey": "MCowBQYDK2VwAyEAIgK2CZwx5AIfI7PXYyXhHNCjTJBSYPKugL6bjGxt3oY=",
+   "status": "active",
+   "activatedAt": "2026-10-23T18:12:30.579Z",
+   "retiredAt": null
+  }
+ ],
+ "requestId": "0265a139-166f-465d-8db5-aeb50a7b8255"
+}

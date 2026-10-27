@@ -1,0 +1,13 @@
+{
+  "name": "qodiqa-verify",
+  "version": "1.0.0",
+  "description": "Independent offline verifiers for QODIQA evidence: artifacts, audit chains, proofs, receipts, bundles and the protocol test vectors. No dependencies.",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node test/run-all.js",
+    "test:independence": "node test/check-independence.js"
+  }
+}

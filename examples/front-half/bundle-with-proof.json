@@ -1,0 +1,294 @@
+{
+ "schema": "QODIQA::EVIDENCE_BUNDLE::V1",
+ "generatedAt": "2026-10-23T18:16:36.025Z",
+ "artifactId": "19b4bb4a-e408-49e1-bb2b-1be29e49991a",
+ "evidencePackage": {
+  "schema": "QODIQA::EVIDENCE::V1",
+  "version": "1.2.0",
+  "artifactId": "19b4bb4a-e408-49e1-bb2b-1be29e49991a",
+  "generatedAt": "2026-10-23T18:16:36.021Z",
+  "found": true,
+  "sections": {
+   "artifact": {
+    "artifactId": "19b4bb4a-e408-49e1-bb2b-1be29e49991a",
+    "decision": "ALLOW",
+    "timestamp": "2026-10-23T18:16:30.633Z",
+    "inputHash": "b2b9250610cd5f82fd4571df2a51451eb88792a29ef3f4cb4e2937c7400b4936",
+    "requestHash": "b2b9250610cd5f82fd4571df2a51451eb88792a29ef3f4cb4e2937c7400b4936",
+    "policyHash": "d2934e922b7acc718616a4e0df7c338ea736480f31d596725f755776e81516cf",
+    "signature": "gXBU5x//AVPdRu+w4gDO095ASEdBXRda4KCdyW0UkcIw++Ex9oW9NgWHJMF2F5O2T08qyiinNcY3+3hzIVkDAQ==",
+    "nonce": null,
+    "tenantId": "f13-mvlaeyo4",
+    "highResTime": "19239228113327",
+    "executionContext": {
+     "executingProvider": "local",
+     "failover": null,
+     "model": "stub-model",
+     "outputSemantic": {
+      "classifiersExecuted": 13,
+      "classifiersFailed": 0,
+      "classifiersInvalidOutput": 0,
+      "classifiersSucceeded": 13,
+      "classifiersTimedOut": 0,
+      "confidence": 0,
+      "decision": "ALLOW",
+      "engineStatus": "READY",
+      "engineVersion": "1.0.0",
+      "matchedPolicies": [],
+      "provider": "local",
+      "reason": null,
+      "registryStatus": "OK",
+      "requestId": "19b4bb4a-e408-49e1-bb2b-1be29e49991a",
+      "score": 0,
+      "surface": "RESPONSE",
+      "tenantId": "f13-mvlaeyo4",
+      "timestamp": "2026-10-23T18:16:30.621Z"
+     },
+     "provider": "local",
+     "publicKeyId": "f13-mvlaeyo4:key_v1",
+     "requestedProvider": "local",
+     "responseId": "chatcmpl-stub",
+     "semantic": {
+      "classifiersExecuted": 13,
+      "classifiersFailed": 0,
+      "classifiersInvalidOutput": 0,
+      "classifiersSucceeded": 13,
+      "classifiersTimedOut": 0,
+      "confidence": 0,
+      "decision": "ALLOW",
+      "engineStatus": "READY",
+      "engineVersion": "1.0.0",
+      "matchedPolicies": [],
+      "provider": "local",
+      "reason": null,
+      "registryStatus": "OK",
+      "requestId": "19b4bb4a-e408-49e1-bb2b-1be29e49991a",
+      "score": 0,
+      "surface": "REQUEST",
+      "tenantId": "f13-mvlaeyo4",
+      "timestamp": "2026-10-23T18:16:30.585Z"
+     },
+     "stage": "PROVIDER_EXECUTION",
+     "tokenUsage": {
+      "inputTokens": 5,
+      "outputTokens": 30,
+      "totalTokens": 35
+     }
+    },
+    "chainHash": "56a5b143b83dc81c4cae717afefa7735a3e7d1fae55785acd783e35d33eac5ec",
+    "prevHash": "0b2a6446ec99b889077ca5f4b19fccd9fa43a3874f2bb3bf6bf3f5c010c3977e",
+    "canonical": "{\"artifactId\":\"19b4bb4a-e408-49e1-bb2b-1be29e49991a\",\"callerContext\":{\"callerId\":\"ap1:34779744a0eacbe7cf8c0135a8e00b2ce9a8b4450970e04a107a1f8dfe54e445\",\"callerName\":\"id-f13-mvlaeyo4\",\"credentialType\":\"api-key\",\"environment\":\"production\"},\"consentProvenance\":{\"consentApprovedAt\":\"2026-10-23T18:15:00.539Z\",\"consentCreatedAt\":\"2026-10-23T18:15:00.539Z\",\"consentId\":\"6670d41b-be77-4bc3-882d-e3000e7368fe\",\"consentIssuer\":\"admin\",\"consentVersion\":2,\"expiresAt\":null,\"recordHash\":\"df9941950c5eaf79ca9abb5987fe7ebda6db0b7daab4d49d466634854fe2d4f7\",\"requiredScope\":null,\"revocationStatus\":\"ACTIVE\",\"scope\":null,\"subject\":\"ap1:34779744a0eacbe7cf8c0135a8e00b2ce9a8b4450970e04a107a1f8dfe54e445\",\"tenantId\":\"f13-mvlaeyo4\"},\"decision\":\"ALLOW\",\"entryType\":\"DECISION\",\"executingProvider\":\"local\",\"executionContext\":{\"executingProvider\":\"local\",\"failover\":null,\"model\":\"stub-model\",\"outputSemantic\":{\"classifiersExecuted\":13,\"classifiersFailed\":0,\"classifiersInvalidOutput\":0,\"classifiersSucceeded\":13,\"classifiersTimedOut\":0,\"confidence\":0,\"decision\":\"ALLOW\",\"engineStatus\":\"READY\",\"engineVersion\":\"1.0.0\",\"matchedPolicies\":[],\"provider\":\"local\",\"reason\":null,\"registryStatus\":\"OK\",\"requestId\":\"19b4bb4a-e408-49e1-bb2b-1be29e49991a\",\"score\":0,\"surface\":\"RESPONSE\",\"tenantId\":\"f13-mvlaeyo4\",\"timestamp\":\"2026-10-23T18:16:30.621Z\"},\"provider\":\"local\",\"publicKeyId\":\"f13-mvlaeyo4:key_v1\",\"requestedProvider\":\"local\",\"responseId\":\"chatcmpl-stub\",\"semantic\":{\"classifiersExecuted\":13,\"classifiersFailed\":0,\"classifiersInvalidOutput\":0,\"classifiersSucceeded\":13,\"classifiersTimedOut\":0,\"confidence\":0,\"decision\":\"ALLOW\",\"engineStatus\":\"READY\",\"engineVersion\":\"1.0.0\",\"matchedPolicies\":[],\"provider\":\"local\",\"reason\":null,\"registryStatus\":\"OK\",\"requestId\":\"19b4bb4a-e408-49e1-bb2b-1be29e49991a\",\"score\":0,\"surface\":\"REQUEST\",\"tenantId\":\"f13-mvlaeyo4\",\"timestamp\":\"2026-10-23T18:16:30.585Z\"},\"stage\":\"PROVIDER_EXECUTION\",\"tokenUsage\":{\"inputTokens\":5,\"outputTokens\":30,\"totalTokens\":35}},\"inputHash\":\"b2b9250610cd5f82fd4571df2a51451eb88792a29ef3f4cb4e2937c7400b4936\",\"model\":\"stub-model\",\"organizationId\":\"612c7d23-922f-4155-b655-395edf376786\",\"outputHash\":\"0b8fea2afc748e44f2d26853053e999e021c015e524f78b76dca9f2c71e625dd\",\"policyDecision\":{\"engineVersion\":\"1.0.0\",\"evaluatedAt\":\"2026-10-23T18:16:30.581Z\",\"evaluationPath\":[{\"policyId\":\"REQUIRE_CONSENT_BASELINE\",\"policyVersion\":null,\"reason\":\"CONSENT_VERIFIED\",\"result\":\"PASS\",\"ruleHash\":\"d04d0fb994eccecd9322b9799248830b8e809a4047916191be155fd48d6428aa\",\"type\":\"REQUIRE_CONSENT\"},{\"policyId\":\"PER_USER_RATE_LIMIT\",\"policyVersion\":null,\"reason\":null,\"result\":\"PASS\",\"ruleHash\":\"026ea2b9560e70e909a852c38c15276434bde35fc20f48b2fcf6843a61e963a0\",\"type\":\"RATE_LIMIT\"},{\"policyId\":\"DLP_FIN_f13-mvl9tc94\",\"policyVersion\":null,\"reason\":null,\"result\":\"PASS\",\"ruleHash\":\"68a353046ab6d463f90e4fb585c70951f06a8edb1c77d20fcd5a3b83a29b4b05\",\"type\":\"DLP\"},{\"policyId\":\"DLP_FIN_f13-mvlaeyo4\",\"policyVersion\":null,\"reason\":null,\"result\":\"PASS\",\"ruleHash\":\"508c54ac347e6c0ef48269247807688e8516f39ea0fbaa1bfa03d0ba473638af\",\"type\":\"DLP\"}],\"policyId\":\"SYSTEM\",\"policyRuleHash\":null,\"policyVersion\":null},\"policyHash\":\"d2934e922b7acc718616a4e0df7c338ea736480f31d596725f755776e81516cf\",\"prevHash\":\"0b2a6446ec99b889077ca5f4b19fccd9fa43a3874f2bb3bf6bf3f5c010c3977e\",\"provider\":\"local\",\"publicKeyId\":\"f13-mvlaeyo4:key_v1\",\"reason\":null,\"requestHash\":\"b2b9250610cd5f82fd4571df2a51451eb88792a29ef3f4cb4e2937c7400b4936\",\"requestId\":\"19b4bb4a-e408-49e1-bb2b-1be29e49991a\",\"responseId\":\"chatcmpl-stub\",\"schemaVersion\":7,\"semantic\":{\"classifiersExecuted\":13,\"classifiersFailed\":0,\"classifiersInvalidOutput\":0,\"classifiersSucceeded\":13,\"classifiersTimedOut\":0,\"confidence\":0,\"decision\":\"ALLOW\",\"engineStatus\":\"READY\",\"engineVersion\":\"1.0.0\",\"matchedPolicies\":[],\"provider\":\"local\",\"reason\":null,\"registryStatus\":\"OK\",\"requestId\":\"19b4bb4a-e408-49e1-bb2b-1be29e49991a\",\"score\":0,\"surface\":\"REQUEST\",\"tenantId\":\"f13-mvlaeyo4\",\"timestamp\":\"2026-10-23T18:16:30.585Z\"},\"signature\":\"gXBU5x//AVPdRu+w4gDO095ASEdBXRda4KCdyW0UkcIw++Ex9oW9NgWHJMF2F5O2T08qyiinNcY3+3hzIVkDAQ==\",\"stage\":\"PROVIDER_EXECUTION\",\"tenantId\":\"f13-mvlaeyo4\",\"timestamp\":\"2026-10-23T18:16:30.633Z\",\"tokenUsage\":{\"inputTokens\":5,\"outputTokens\":30,\"totalTokens\":35},\"verificationResult\":true}",
+    "chainHashDomain": "QODIQA::AUDIT::V1",
+    "provider": "local",
+    "model": "stub-model"
+   },
+   "policy": {
+    "policyHashAtExecution": "d2934e922b7acc718616a4e0df7c338ea736480f31d596725f755776e81516cf",
+    "currentPolicyHash": "d2934e922b7acc718616a4e0df7c338ea736480f31d596725f755776e81516cf",
+    "hashIntegrity": "MATCH",
+    "policyCount": 6,
+    "matchedRuleId": "SYSTEM",
+    "matchedRuleVersion": null,
+    "matchedRuleHash": null,
+    "engineVersion": "1.0.0",
+    "evaluatedAt": "2026-10-23T18:16:30.581Z",
+    "evaluationPath": [
+     {
+      "policyId": "REQUIRE_CONSENT_BASELINE",
+      "policyVersion": null,
+      "type": "REQUIRE_CONSENT",
+      "result": "PASS",
+      "reason": "CONSENT_VERIFIED",
+      "ruleHash": "d04d0fb994eccecd9322b9799248830b8e809a4047916191be155fd48d6428aa"
+     },
+     {
+      "policyId": "PER_USER_RATE_LIMIT",
+      "policyVersion": null,
+      "type": "RATE_LIMIT",
+      "result": "PASS",
+      "reason": null,
+      "ruleHash": "026ea2b9560e70e909a852c38c15276434bde35fc20f48b2fcf6843a61e963a0"
+     },
+     {
+      "policyId": "DLP_FIN_f13-mvl9tc94",
+      "policyVersion": null,
+      "type": "DLP",
+      "result": "PASS",
+      "reason": null,
+      "ruleHash": "68a353046ab6d463f90e4fb585c70951f06a8edb1c77d20fcd5a3b83a29b4b05"
+     },
+     {
+      "policyId": "DLP_FIN_f13-mvlaeyo4",
+      "policyVersion": null,
+      "type": "DLP",
+      "result": "PASS",
+      "reason": null,
+      "ruleHash": "508c54ac347e6c0ef48269247807688e8516f39ea0fbaa1bfa03d0ba473638af"
+     }
+    ]
+   },
+   "key": {
+    "publicKeyId": "f13-mvlaeyo4:key_v1",
+    "keyStatus": "active",
+    "algorithm": "ed25519",
+    "clientId": "f13-mvlaeyo4",
+    "keyVersion": 1,
+    "createdAt": "2026-10-23T18:12:30.579Z",
+    "publicKey": "MCowBQYDK2VwAyEAIgK2CZwx5AIfI7PXYyXhHNCjTJBSYPKugL6bjGxt3oY=",
+    "publicKeyEncoding": "base64-der-spki",
+    "totalKeysInStore": 14,
+    "activeKeys": 14
+   },
+   "verification": {
+    "outcome": "VALID",
+    "signature": "gXBU5x//AVPdRu+w4gDO095ASEdBXRda4KCdyW0UkcIw++Ex9oW9NgWHJMF2F5O2T08qyiinNcY3+3hzIVkDAQ==",
+    "signatureAlgorithm": "Ed25519",
+    "signatureValid": true,
+    "publicKeyId": "f13-mvlaeyo4:key_v1",
+    "publicKey": "MCowBQYDK2VwAyEAIgK2CZwx5AIfI7PXYyXhHNCjTJBSYPKugL6bjGxt3oY=",
+    "publicKeyEncoding": "base64-der-spki",
+    "keyCurrentStatus": "active",
+    "decisionAtExecution": "ALLOW",
+    "stage": "PROVIDER_EXECUTION",
+    "reason": null,
+    "verificationNote": "Ed25519 signature verified successfully at execution time"
+   },
+   "audit": {
+    "chainIntegrity": {
+     "valid": true,
+     "entriesVerified": 48,
+     "tamperingDetected": false,
+     "reason": null,
+     "head": "3f628b4bc0f4c4ddcdbe2ace55cf395cb1c8ef2ad1ca07f9fe9234edf6338042",
+     "tail": "fbd8a3736145d4682adb6123e3d563736ff33e2736508cf7c3fe17ad605e8f61"
+    },
+    "artifactPosition": {
+     "index": 45,
+     "totalInChain": 48,
+     "found": true
+    },
+    "replayAnalysis": {
+     "replayCount": 1,
+     "replayRiskLevel": "LOW",
+     "replayWindowMs": null,
+     "replayWindowHuman": "N/A",
+     "firstReplayAt": null,
+     "lastReplayAt": null
+    }
+   },
+   "consent": {
+    "available": true,
+    "consentId": "6670d41b-be77-4bc3-882d-e3000e7368fe",
+    "consentVersion": 2,
+    "consentCreatedAt": "2026-10-23T18:15:00.539Z",
+    "consentApprovedAt": "2026-10-23T18:15:00.539Z",
+    "consentIssuer": "admin",
+    "tenantId": "f13-mvlaeyo4",
+    "subject": "ap1:34779744a0eacbe7cf8c0135a8e00b2ce9a8b4450970e04a107a1f8dfe54e445",
+    "scope": null,
+    "requiredScope": null,
+    "expiresAt": null,
+    "revocationStatus": "ACTIVE",
+    "recordHash": "df9941950c5eaf79ca9abb5987fe7ebda6db0b7daab4d49d466634854fe2d4f7"
+   },
+   "caller": {
+    "available": true,
+    "callerId": "ap1:34779744a0eacbe7cf8c0135a8e00b2ce9a8b4450970e04a107a1f8dfe54e445",
+    "callerName": "id-f13-mvlaeyo4",
+    "environment": "production",
+    "credentialType": "api-key"
+   },
+   "requestor": {
+    "userId": "bootstrap-admin",
+    "username": "admin",
+    "role": "admin",
+    "authorizationResult": "AUTHORIZED",
+    "generatedAt": "2026-10-23T18:16:36.021Z"
+   }
+  },
+  "integrity": {
+   "packageHash": "9f51e04f75d115a5cdf2214fd01c3a85acc6eed2e61fabbd863bb7c0d9b1651d",
+   "algorithm": "SHA-256",
+   "signature": "+WBLZ2nakEIz5yQAVBzwrSJBH8rJFYvesgaSdstFpI2aj3glfQm2/0TQg42LnwhXESJD2AHTEsqHHqL01n2yDA==",
+   "publicKey": "MCowBQYDK2VwAyEAgXAdMRwo9c1R82M+qGiMZY0ZMmiqE6oDUnPkikL29vE=",
+   "keyId": "qodiqa-rc:key_v1",
+   "signingAlgorithm": "Ed25519",
+   "domain": "QODIQA::EVIDENCE::V1",
+   "signedAt": "2026-10-23T18:16:36.022Z",
+   "sealError": null
+  },
+  "missing": []
+ },
+ "transparency": {
+  "available": true,
+  "inclusionProof": {
+   "proofVersion": "2",
+   "proofType": "TRANSPARENCY_INCLUSION",
+   "generatedAt": "2026-10-23T18:16:36.025Z",
+   "entry": {
+    "transparencyId": "38e552a3-0cf8-4fce-a21e-3faddf6bf8ba",
+    "id": 52,
+    "entryType": "AUDIT",
+    "artifactId": "19b4bb4a-e408-49e1-bb2b-1be29e49991a",
+    "evidenceChainId": null,
+    "verificationId": null,
+    "payloadHash": "cc9f9531fc6c15faf9635d2b672676d6b640163a1f52f74ac35c021b48b33821",
+    "previousEntryHash": "51e8f6978a748ac04536269fdeb31e9f7aa54d965093deab76d3294e7c3f3991",
+    "entryHash": "5be7642a5cb500c0b8099dd0f357ff0df16b074b2661f9bc54c7f718c7ed7795",
+    "signerKeyId": "tr-qodiqa-rc:key_v1",
+    "signature": "qaXkjY3B3jpOVfDBhtPB0VLUvl0iGfnKVh8SgXIsixvQMrA2ISdA1wNO0uuVNFQiG2Mxdta6AEzPXLnbrCM0DQ==",
+    "createdAt": "2026-10-23T18:16:30.643Z"
+   },
+   "root": {
+    "rootId": "0d45372c-e988-4ea5-a8d0-3e67acef8a95",
+    "seqFrom": 51,
+    "seqTo": 54,
+    "entryCount": 54,
+    "rootHash": "b0befe272f705f5d427fa387df9d32721d805395b0ede11da46d829e727d5367",
+    "previousRootHash": "8de017eee24022e4f724a1d6241fad04f4ecfb305508957a41d6b51451f58115",
+    "signerKeyId": "tr-qodiqa-rc:key_v1",
+    "signature": "CEpr0DepUuKoz/LR+6ItNZ1sqghWOUMuI3XoyDtQxkSkvaLS9hEuDstQ4UI3oaQ5N69gbP2dHIdapWcP6Sy8CA==",
+    "generatedAt": "2026-10-23T18:16:36.009Z"
+   },
+   "proof": {
+    "leafIndex": 51,
+    "treeSize": 54,
+    "merklePath": [
+     {
+      "hash": "d0519f14a5868d9df41fb1394d16d8bbf4d2bf24632f72f8208b86748d916f14",
+      "side": "left"
+     },
+     {
+      "hash": "4615ea4d6f81d71d051c8a451cdb2fd52fdaff00290bfbe40d86abba39f1f4a3",
+      "side": "left"
+     },
+     {
+      "hash": "84bb8734e2341994bd6a22f6400bbad4a3899185ba540ccaf274ef0b8c97897f",
+      "side": "right"
+     },
+     {
+      "hash": "3a471939dfc178dcbc608ad73b6c9ce5d0dcd75a107d5483e5e3633b751a8f36",
+      "side": "left"
+     },
+     {
+      "hash": "780ca753465d08845db9108e57ed92be37205e524d9644dfbf9940b792918681",
+      "side": "left"
+     }
+    ],
+    "merkleRoot": "b0befe272f705f5d427fa387df9d32721d805395b0ede11da46d829e727d5367"
+   },
+   "verifiable": true
+  }
+ },
+ "integrity": {
+  "bundleHash": "6fc670b8925d72da2afc3f1bc455af1174a79d260b454e41a540d02435f6a61a",
+  "algorithm": "SHA-256",
+  "signature": "Ft8s9XH0GDIq3D+P6XOKQyTKvH9HyxfQk1YqmAhle+JtlKptsN6MmnT45yiVfIg2x1EiCm/8v15kl/UBxZb2Bw==",
+  "publicKey": "MCowBQYDK2VwAyEAgXAdMRwo9c1R82M+qGiMZY0ZMmiqE6oDUnPkikL29vE=",
+  "keyId": "qodiqa-rc:key_v1",
+  "signingAlgorithm": "Ed25519",
+  "domain": "QODIQA::EVIDENCE_BUNDLE::V1",
+  "signedAt": "2026-10-23T18:16:36.025Z",
+  "sealError": null
+ }
+}

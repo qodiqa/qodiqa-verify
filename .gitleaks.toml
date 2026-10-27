@@ -1,0 +1,11 @@
+title = "qodiqa-verify secret scanning"
+
+[extend]
+useDefault = true
+
+# Published test vectors and recorded sessions contain 64-hex hash chains and synthetic fixtures that generic rules mistake for tokens.
+# Only these directories are allowlisted, and only for the generic token rules; private keys are still reported everywhere.
+[[allowlists]]
+description = "hash values in recorded sessions and protocol vectors"
+targetRules = ["sentry-access-token", "generic-api-key"]
+paths = ['''^examples/''', '''^docs/protocol/vectors/''', '''^src/''']

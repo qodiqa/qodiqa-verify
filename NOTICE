@@ -1,0 +1,4 @@
+QODIQA Verify
+Copyright 2026 QODIQA. Licensed under the Apache License, Version 2.0; see LICENSE.
+
+This repository has no third-party runtime dependencies. The Python verifier verify_external.py uses the cryptography or PyNaCl package, which you install yourself and which keep their own licences.
